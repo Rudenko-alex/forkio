@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+body {
+    background-color: black;
+    
+}
+.container {
+    background-color: #FEFBF1;
+    margin: 0 auto;
+    width: 1200px;
+}
+.head {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 22px 0 22px 0;
+}
+.head_link {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #703412;
+}
+.main {
+    padding: 100px 72px;
+}
+.main_text {
+    text-transform:uppercase;
+    font-size: 11px;
+    line-height: 44px;
+    letter-spacing: 1.6px;
+    color: #703412;
+}
+.main_title {
+    margin-top: 30px;
+    width: 848px;
+    font-size: 80px;
+    line-height: 88px;
+    color: #703412;  
+}
+.main_intro {
+    margin-top: 120px;
+    width: 570px;
+    font-size: 32px;
+    line-height: 41px;
+    color: #703412; 
+}
+.page {
+   padding:60px 72px;
+   display: flex; 
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+.item {
+    width: 310px;
+    padding-bottom: 40px;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+.item:hover .item_img {
+    display: none;
+}
+.item:hover .change {
+    display: inline-block;
+}
+.item_img {
+    object-fit: cover;
+}
+.change {
+    display: none;
+}
+.item_title {
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #703412; 
+}
+.item_text {
+    padding-top: 10px;
+    text-transform:uppercase;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    color: #703412; 
+}
+.foot {
+    background-color: #084935;
+    padding: 110px 85px 40px 70px;
+}
+.foot_preview {
+    margin-bottom: 50px;
+    position: relative; 
+    font-size: 30px;
+    line-height: 38.4px;
+    color: #FFFFFF; 
+}
+.foot_opacity{
+    opacity: 72%;
+    font-size: 30px;
+    line-height: 38.4px;
+    color: #FFFFFF; 
+}
+.foot_preview::before {
+    content: 'contact';
+    position: absolute;
+    top: -40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF; 
+}
+.foot_section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.foot_other{
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #FFFFFF; 
+    opacity: 72%;
+}
+
+.footer_author{
+    background-color: #084935;
+    padding-top: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #FFFFFF; 
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+}
